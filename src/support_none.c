@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2018 LG Electronics, Inc.
+// Copyright (c) 2015-2019 LG Electronics, Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 #include <errno.h>
 #include <wca-support.h>
 
-int wca_support_init(LSHandle *ls_wifi_handle, LSHandle *ls_cm_handle, LSHandle *ls_wan_handle,
+int wca_support_init(LSHandle *ls_wifi_handle, LSHandle *ls_cm_handle,
                 wca_support_connman_update_callbacks *wca_callbacks,
                 wca_support_callback callback, void *user_data)
 {
