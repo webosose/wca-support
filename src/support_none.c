@@ -31,34 +31,10 @@ void wca_support_release()
 {
 }
 
-int wca_support_wifi_enable_tethering(wca_support_callback callback, void *user_data)
-{
-	if (callback)
-		callback(true, user_data);
-
-	return 0;
-}
-
-int wca_support_wifi_disable_tethering(wca_support_callback callback, void *user_data)
-{
-	if (callback)
-		callback(true, user_data);
-
-	return 0;
-}
-
 int wca_support_wifi_configure_country_code(wca_support_callback callback, void *user_data)
 {
 	if (callback)
 		callback(true, user_data);
-
-	return 0;
-}
-
-int wca_support_wifi_set_passthrough_params(jvalue_ref params, wca_support_passthrough_params_callback callback, void *user_data)
-{
-	if (callback)
-		callback(true, NULL, user_data);
 
 	return 0;
 }
