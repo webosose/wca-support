@@ -1,0 +1,4 @@
+Open Source Software Package:
+- name: webOSOSE-wca-support
+  source: git://github.com/webosose/wca-support
+  license: Apache-2.0
